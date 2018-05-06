@@ -6,7 +6,7 @@
 
 wget -O azcopy.tar.gz https://aka.ms/downloadazcopylinuxrhel6
 tar -xf azcopy.tar.gz
-sudo ./install.sh
+sudo bash ./install.sh
 
 echo "First arg:  $1"
 echo "Second arg: $2"
