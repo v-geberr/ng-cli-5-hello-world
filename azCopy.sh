@@ -4,9 +4,9 @@
 # $2 is dest path url and file
 # $3 is dest-keys
 
-wget -O azcopy.tar.gz https://aka.ms/downloadazcopylinuxrhel6
+wget -O azcopy.tar.gz https://aka.ms/downloadazcopylinux64
 tar -xf azcopy.tar.gz
-sudo bash ./install.sh
+sudo ./install.sh
 
 echo "First arg:  $1"
 echo "Second arg: $2"
